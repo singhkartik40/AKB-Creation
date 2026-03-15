@@ -476,6 +476,25 @@ footer p {
   text-align: center;
 }
 
+.footer-instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  color: var(--brown-light);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+}
+
+.footer-instagram:hover {
+  color: var(--warm-white);
+  border-bottom-color: var(--brown-light);
+}
+
 /* --- Responsive --- */
 @media (max-width: 768px) {
   .story-grid,
